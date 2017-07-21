@@ -1,0 +1,12 @@
+{
+  "name": "screener-v2-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test-screener": "screener-runner --conf screener.config.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "screener-runner": "^0.8.2"
+  }
+}
