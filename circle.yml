@@ -9,6 +9,6 @@ dependencies:
 test:
     override:
         - >
-	  if [ -n "${RUN_SCREENER}" ]; then
+          if [ -n "${RUN_SCREENER}" ]; then
             npm run test-screener;
-      	  fi	  
+          fi	  
